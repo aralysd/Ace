@@ -2,17 +2,66 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <title>Ace | Homepage</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css">
     <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
   </head>
   <body>
     
     <div class="row">
       <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
+        <div id="logo"><img src="img/ACE_Logo.svg" alt="Ace Logo"/></div><!--end logo div-->
+      	<div id="top-text">
+        	"Let A.C.E. take the stress out of your home needs."<br />
+            <img src="img/phone-img.svg"/> Call us today for a consultation: 1-888-937-4514
+        </div><!--end top-text div-->
+       </div>
+    </div>
+    
+    
+		<nav class="clearfix">
+        	<ul class="clearfix">
+        		<li><a href="index.html">A.C.E.</a></li>
+            	<li><a href="#">Auntie A.C.E.</a></li>
+            	<li><a href="#">Restorative Services</a></li>
+            	<li><a href="#">Employment</a></li>
+            	<li><a href="#">Contact Us</a></li>
+        	</ul>
+            <a href="#" id="pull">Menu</a>
+         </nav><!--end rmm nav-->
+
+    
+     <div class="row">
+      <div class="large-12 columns">
+       	<div class="navigation">
+        	
+        </div><!--end navigation div-->
+       </div>
     </div>
     
     <div class="row">
