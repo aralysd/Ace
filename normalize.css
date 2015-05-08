@@ -102,7 +102,8 @@ body {
  */
 
 a:focus {
-    outline: thin dotted;
+	outline: thin dotted;
+	color: #E8BEC0;
 }
 
 /*
@@ -112,7 +113,8 @@ a:focus {
 
 a:active,
 a:hover {
-    outline: 0;
+	outline: 0;
+	color: #E8BEC0;
 }
 
 
@@ -136,8 +138,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
+	font-size: 18px;
+	margin: 1em 0;
+	color: #FFFAF5;
 }
 
 h4 {
@@ -146,8 +149,11 @@ h4 {
 }
 
 h5 {
-    font-size: 0.83em;
-    margin: 1.67em 0;
+	font-size: 0.83em;
+	margin-top: 1.67em;
+	margin-right: 0;
+	margin-bottom: 1.67em;
+	/* [disabled]text-align: left; */
 }
 
 h6 {
@@ -199,7 +205,8 @@ mark {
 
 p,
 pre {
-    margin: 1em 0;
+	margin: 1em 0;
+	text-align: right;
 }
 
 /*
@@ -296,7 +303,9 @@ dd {
 menu,
 ol,
 ul {
-    padding: 0 0 0 40px;
+	padding: 0 0 0 40px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*
@@ -321,8 +330,8 @@ nav ol {
  */
 
 img {
-    border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic; /* 2 */
+	border: 0; /* 1 */
+	-ms-interpolation-mode: bicubic;
 }
 
 /*

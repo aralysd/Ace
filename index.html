@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sumana:400,700' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script>
 		$(function() {
@@ -24,43 +25,52 @@
 
 			$(window).resize(function(){
         		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
+        		if(w > 985 && menu.is(':hidden')) {
         			menu.removeAttr('style');
         		}
     		});
 		});
 	</script>
-  </head>
+	
+    <script>
+	$(document).ready(function() {
+    	$('#welcome').fadeIn("slow");  
+    });
+	$(document).ready(function() {
+    	$('#Ace').fadeIn(4000);  
+    });
+    </script>
+</head>
   <body>
     
     <div class="row">
       <div class="large-12 columns">
-        <div id="logo"><img src="img/ACE_Logo.svg" alt="Ace Logo"/></div><!--end logo div-->
+        <div id="logo-wrapper">
+        	<img src="img/ACE-Logo.png" alt="Ace Logo"/>
+            </div><!--end logo-wrapper div-->
       	<div id="top-text">
         	"Let A.C.E. take the stress out of your home needs."<br />
-            <img src="img/phone-img.svg"/> Call us today for a consultation: 1-888-937-4514
+            <img src="img/phone-icon.png"/> Call us today for a consultation: <a href="tel:+18889374514" style=" color:#D59697">888-937-4514</a>
         </div><!--end top-text div-->
        </div>
     </div>
-		<nav class="clearfix">
-        	<ul class="clearfix">
-        		<li><a href="index.html">A.C.E.</a></li>
-            	<li><a href="#">Auntie A.C.E.</a></li>
-            	<li><a href="#">Restorative Services</a></li>
-            	<li><a href="#">Employment</a></li>
-                <li><a href="#">Here at A.C.E.</a></li>
-            	<li><a href="#">Contact Us</a></li>
-        	</ul>
+
+     <div class="row">
+      <div class="large-12-1 columns">
+       	<div class="navigation">
+        	<nav class="clearfix">
+        		<ul class="clearfix">
+        			<li><a href="index.html">A.C.E.</a></li>
+            		<li><a href="#">Auntie A.C.E.</a></li>
+            		<li><a href="#">Restorative Services</a></li>
+            		<li><a href="#">Employment</a></li>
+                	<li><a href="#">About Us</a></li>
+            		<li><a href="#">Contact Us</a></li>
+        		</ul>
             <a href="#" id="pull">Menu</a>
          </nav><!--end rmm nav-->
-
-    
-     <div class="row">
-      <div class="large-12 columns">
-       	<div class="navigation">
-        	
-        </div><!--end navigation div-->
-       </div>
+      </div><!--end navigation div-->
+     </div>
     </div>
     
     <div class="row">
@@ -79,126 +89,94 @@
     
 
     <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
+    	<div class="large-12">
+        	<div id="box-container">
+            <div id="box1">	
+            	<div class="box-inner">
+                	<div class="mini-icons"><img src="img/icon1.png" alt=""/>
+                    </div> 
+                   <div id="info-text">
+                	<h3><a href="#">Standard Services</a><br /></h3>
+                    <li>Skilled Nursing</li>
+                    <li>Pshysical Therapy</li>
+                    <li>Occupational Therapy</li>
+                    <li>Speech Therapy</li>
+                    <h4><em><a href="#">See More</a></em> <img src="img/arrow.png"></h4>
+                   </div>  
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
+          	<div id="box2">
+            	<div class="box-inner">
+                	<div class="mini-icons"><img src="img/icon2.png" alt=""/>
+                    </div>
+                    <div id="info-text">
+                	<h3><a href="#">Payor Sources</a><br /></h3>
+                    <li>Aetna</li>
+                    <li>Asr</li>
+                    <li>Blue Care Network</li>
+                    <li>Medicaid</li>
+                    <h4><em><a href="#">See More</a></em> <img src="img/arrow.png"></h4>
+                   </div>  
+                </div>
             </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
+            <div id="box3">
+            	<div class="box-inner">
+                <div class="mini-icons"><img src="img/icon3.png" alt=""/>
+                    </div>
+                    <div id="info-text">
+                	<h3><a href="#">Private Pay Services</a><br /></h3>
+                    <li>Private Duty Nursing</li>
+                    <li>Home Care Aids</li>
+                    <li>Housekeeping</li>
+                    <li>Shopping/Errands</li>
+                    <h4><em><a href="#">See More</a></em> <img src="img/arrow.png"></h4>
+                   </div>  
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
+            <div id="box4">
+            	<div class="box-inner">
+                  <div class="mini-icons"><img src="img/icon4.png" alt=""/>
+                    </div>
+                    <div id="info-text">
+                	<h3><a href="#">Comprehensive Wound Management</a><br /></h3>
+                    
+                    <h4><em><a href="#">Learn More</a></em> <img src="img/arrow.png"></h4>
+                   </div>
+                </div>
             </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
             </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-12.columns" />
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <div class="row collapse">
-				        <label>Input Label</label>
-				        <div class="small-9 columns">
-				          <input type="text" placeholder="small-9.columns" />
-				        </div>
-				        <div class="small-3 columns">
-				          <span class="postfix">.com</span>
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Select Box</label>
-				      <select>
-				        <option value="husker">Husker</option>
-				        <option value="starbuck">Starbuck</option>
-				        <option value="hotdog">Hot Dog</option>
-				        <option value="apollo">Apollo</option>
-				      </select>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				      <label>Choose Your Favorite</label>
-				      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-				    </div>
-				    <div class="large-6 medium-6 columns">
-				      <label>Check these out</label>
-				      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Textarea Label</label>
-				      <textarea placeholder="small-12.columns"></textarea>
-				    </div>
-				  </div>
-				</form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-			  <h5>Try one of these buttons:</h5>
-			  <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-				<div class="panel">
-        	<h5>So many components, girl!</h5>
-        	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
+   	    </div>
       </div>
-    </div>
-    
+      <div class="row">
+      	<div class="large-12 columns">
+       	  
+          	<div id="welcome">
+            	Welcome To
+            </div>
+            <div id="Ace">
+            	A.C.E.
+            </div>
+            
+       	  <div id="center-text">	
+            	Here at A.C.E. we are dedicated to providing individualized care for our clients on a 24 hour per day, 7 days per week basis.<br />
+            <em> Click on any of the services below for more</em> </div>
+            <hr>
+        </div><!--end large-12 columns-->
+      </div><!--end row-->
+      <div class="row">
+  		<div class="large-12 columns">
+      		<div id="round-icon1"><img src="img/round-icon1.png" alt=""/><br>Specialized Services</div>
+    		<div id="round-icon2"><img src="img/round-icon2.png" alt=""/><br>Certified Services</div>
+            <div id="round-icon3"><img src="img/round-icon3.png" alt=""/><br>Medicaid Services</div>
+            <div id="small-map"><img src="img/small-map.png" alt=""/><br>Service Area</div>
+   	</div><!--end large-12 columns-->
+      </div><!--end row-->
+      <div class="row">
+      	<div class="large-12">	
+        	<div id="rest-logo"><img src="img/rest-logo.png" alt=""/></div>
+            <div id="auntie-logo"><img src="img/Aunite_ACE_Logo.png" alt=""/></div>
+        </div><!--end large-->
+      </div><!--end row-->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
@@ -208,7 +186,7 @@
 			  timer_speed: 5000,
 			  slide_number: false,
 			  pause_on_hover: false,
-			  
+			  bullets: false,
 			 }
 		  });
     </script>
@@ -217,7 +195,8 @@
     	<div id="accredited"><img src="img/JCAHO.jpg" alt="JCAHO icon"/> JCAHO Accredited</div>
         <div id="certified"><img src="img/Medicare.jpg" alt="Medicare icon"/> Medicare Certified</div>
         <div id="bottom-text">A.C.E. Home Health Care Sercices Inc. & Auntie A.C.E. Staffing Inc. <br />
-        239 S. Ensley/P.O. Box 499 | Howard City, MI 49329 | 888.937.4514 <br />
+        239 S. Ensley/P.O. Box 499 | Howard City, MI 49329 <br />
+        <a href="tel:+18889374514" style=" color:#D59697">888-937-4514</a> <br />
         Copyright | 2015</div>
   </div><!--end footer-->
     

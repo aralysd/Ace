@@ -46,9 +46,10 @@ html, body {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 html,
 body {
@@ -67,7 +68,9 @@ body {
   cursor: auto; }
 
 a:hover {
-  cursor: pointer; }
+	cursor: pointer;
+	color: #E8BEC0;
+}
 
 img {
   max-width: 100%;
@@ -119,12 +122,13 @@ select {
   width: 100%; }
 
 .row {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5rem; }
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 62.5rem;
+}
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -295,10 +299,11 @@ select {
 
   .column,
   .columns {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; }
+	position: relative;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	float: left;
+}
 
   .small-1 {
     width: 8.33333%; }
@@ -538,10 +543,13 @@ select {
 
   .column,
   .columns {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    float: left; }
+	position: relative;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
 
   .medium-1 {
     width: 8.33333%; }
@@ -940,7 +948,8 @@ select {
     width: 91.66667%; }
 
   .large-12 {
-    width: 100%; }
+	width: 100%;
+}
 
   .large-offset-0 {
     margin-left: 0% !important; }
@@ -3619,16 +3628,25 @@ p,
 blockquote,
 th,
 td {
-  margin: 0;
-  padding: 0; }
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding: 0;
+	/* [disabled]text-align: center; */
+}
 
 /* Default Link Styles */
 a {
-  color: #008CBA;
-  text-decoration: none;
-  line-height: inherit; }
+	line-height: inherit;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	color: #FFFBF6;
+}
   a:hover, a:focus {
-    color: #0078a0; }
+	color: #E8BEC0;
+}
   a img {
     border: none; }
 
@@ -3650,7 +3668,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -3698,8 +3716,12 @@ hr {
 /* Helpful Typography Defaults */
 em,
 i {
-  font-style: italic;
-  line-height: inherit; }
+	font-style: italic;
+	line-height: inherit;
+	/* [disabled]color: #FFFFFE; */
+	font-size: small;
+	font-weight: bold;
+}
 
 strong,
 b {
