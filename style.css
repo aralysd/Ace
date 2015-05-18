@@ -20,7 +20,7 @@ nav {
 	width: 100%;
 	background: #671A1D;
 	font-size: 11pt;
-	font-family: 'PT Sans', Arial, sans-serif;
+	font-family: 'Sumana', serif;
 	font-weight: bold;
 	position: relative;
 	margin-left: -15px;
@@ -40,7 +40,7 @@ nav li {
 }
 nav a {
 	color: #FEFCF5;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Sumana', serif;
 	display: inline-block;
 	width: 161px;
 	text-align: center;

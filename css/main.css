@@ -73,7 +73,7 @@ li {
 #box4 {
 	width: 25%;
 	height: 323px;
-	background-color: rgba(103,26,29,1.00);
+	background-color: #671A1D;
 	float: left;
 	text-align: center;
 	color: #FFFAF5;
@@ -82,7 +82,7 @@ li {
 	font-family: 'Sumana', serif;
 	padding-top: 25px;
 }
-#info-text {
+.info-text {
 	font-family: 'Sumana', serif;
 	text-align: center;
 	color: #FFFAF5;
@@ -118,6 +118,7 @@ li {
 	font-family: 'Sumana', serif;
 	text-align: center;
 }
+
 #round-icon1 {
 	float: left;
 	margin-right: 100px;
@@ -200,7 +201,7 @@ li {
 	clear: none;
 	text-align: center;
 }
-#info-text {
+.info-text {
 	margin-top: -23px;
 }
 a {
@@ -235,16 +236,20 @@ li {
 	height: 233px;
 }
 #welcome {
-	font-size: 25px;
+	font-size: 30px;
 	margin-left: -10px;
 	margin-top: 14px;
+	width: 100%;
+	text-align: left;
 }
 #Ace {
-	font-size: 25px;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
 }
 #center-text {
-	width: 60%;
-	margin-top: -70px;
+	width: 100%;
+	margin-top: 0px;
 	font-size: small;
 }
 #round-icon1 {
@@ -301,7 +306,7 @@ a {
 li {
 	font-size: 12px;
 }
-#info-text{
+.info-text{
 	margin-top: -15px;
 }
 #box1 {
@@ -329,6 +334,7 @@ li {
 #center-text {
 	margin-top: -100px;
 }
+
 #round-icon1 {
 	width: 100px;
 	float: left;

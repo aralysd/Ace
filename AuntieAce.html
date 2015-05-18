@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="description" content="Auntie ACE Staffing has a complete line of services dedicated to helping you in and around your home!"/>
+    <meta name="author" content="Rachel Duncan"/>
+    <title>A.C.E. | Homepage</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/auntie.css" rel="stylesheet" type="text/css">
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sumana:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 985 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+	
+    <script>
+		$(document).ready(function() {
+    		$('#welcome-auntie').fadeIn("slow");  
+    	});
+		$(document).ready(function() {
+    		$('#Ace-auntie').fadeIn(4000);  
+    	});
+    </script>
+</head>
+<body>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <div id="logo-wrapper">
+        	<img src="img/ACE-Logo.png" alt="Ace Logo"/>
+            </div><!--end logo-wrapper div-->
+      	<div id="top-text">
+        	"Let A.C.E. take the stress out of your home needs."<br />
+            <img src="img/phone-icon.png" alt="Phone icon"/> Call us today for a consultation: <a href="tel:+18889374514" style=" color:#D59697">888-937-4514</a>
+        </div><!--end top-text div-->
+       </div><!--end large-12-->
+    </div><!--end row-->
+
+     <div class="row">
+      <div class="large-12-1 columns">
+       	<div class="navigation">
+        	<nav class="clearfix">
+        		<ul class="clearfix">
+        			<li><a href="index.html">A.C.E.</a></li>
+            		<li><a href="AuntieAce.html">Auntie A.C.E.</a></li>
+            		<li><a href="restorative.html">Restorative Services</a></li>
+            		<li><a href="employment.html">Employment</a></li>
+                	<li><a href="about.html">About Us</a></li>
+            		<li><a href="contact.html">Contact Us</a></li>
+        		</ul>
+            <a href="#" id="pull">Menu</a>
+         </nav><!--end rmm nav-->
+      </div><!--end navigation div-->
+     </div><!--end large-12-->
+    </div><!--end row-->
+
+      <div class="row">
+      	<div class="large-12 columns">
+       	  
+          	<div id="welcome-auntie">
+            	Welcome To
+            </div>
+            <div id="Ace-auntie">
+            	Auntie A.C.E.
+            </div>
+            
+       	  <div id="auntie-center-text">
+       	  <img src="img/Aunite_ACE_Logo.png" alt=""/><br /> "Who comes to your home is your choice.<br /> Let A.C.E. & Auntie A.C.E. be your choice."</div>
+            <hr>
+        </div><!--end large-12 columns-->
+      </div><!--end row-->
+      
+    <div class="row">
+    	<div class="large-12">
+        	<div class="title-box">
+            	<div id="tbox">Certified Services</div>
+                <div id="box-text">
+                	<ul>
+                    	<li class="heart-check">Skilled Nursing</li>
+                        <li class="heart-check">Physical Therapy</li>
+                        <li class="heart-check">Occupational Therapy</li>
+                        <li class="heart-check">Speech Therapy</li>
+                        <li class="heart-check">Medical Social Work</li>
+                        <li class="heart-check">Certified Home Health Aide</li>
+                        <li class="heart-check">Implanted Pain Pump Management</li>
+                        <li class="heart-check">I.V. Therapy</li>
+                        <li class="heart-check">Pediatrics</li>
+                        <li class="heart-check">Home Vent Program</li><br />
+                        <span id="important">"In coordination with the ordering physician, and other involved health care providers, a comprehensive
+                        Plan of Care is developed to meet the patient's specific medical needs."</span>
+                    </ul>
+                </div>
+            </div><!--end title-box-->
+            <div class="title-box">
+            	<div id="tbox2">Medicaid Services</div>
+                	    <div id="box-text">
+                	<ul>
+                    	<li class="heart-check">Hourly Nursing</li>
+                        <li class="heart-check">Private Duty Nursing</li>
+                        <li class="heart-check">Home Care Aides</li>
+                        <li class="heart-check">Specialized Pediatric Services</li>
+                        	<ul>
+                        		<li class="nested">Ventilator Care</li>
+                                <li class="nested">Trach Care</li>
+                                <li class="nested">Ostomy Care</li>
+                                <li class="nested">Feeding Tubes</li>
+                            </ul>
+                        <li class="heart-check">Community Living Supports Services</li>
+                        <li class="heart-check">Children's Special Health Care Services</li>
+                        <li class="heart-check">Home Help Services Program</li>
+                        <li class="heart-check">Chore Services</li>
+                        <li class="heart-check">Medicaid recipients may also qualify for "Certified" services</li>
+                        <br />
+                        <span id="important">"All Medicaid services are coordinated with the appropriate case managing agencies and may have eligibility, enrollment, and prior authorization requirments."</span>
+                    </ul>
+                </div>
+            </div><!--end title-box-->
+            <div class="title-box">
+            	<div id="tbox3">Private Pay Services</div>
+                <div id="box-text">
+                	<ul>
+                    	<li class="heart-check">Private Duty Nursing</li>
+                        <li class="heart-check">Home Care Aides</li>
+                        <li class="heart-check">Handy Helper Services</li>
+                        <li class="heart-check">Housekeeping</li>
+                        <li class="heart-check">Companionship/Respite</li>
+                        <li class="heart-check">Shopping/Errands</li>
+                        <li class="heart-check">Transportation/Escort to appointments</li>
+                        <br />
+                        <p class="bottom">"Working together with the client, family, and caregivers to establish and meet goals of achieving 
+                        quality of life."</p><br>
+                        <span id="important">"All Certified services and Medicaid services can be purchased privately."</span>
+                        <p class="contact">For more information<br/> <a href="tel:+18889374514" style=" color:#D59697">Call: 888-937-4514</a></p>
+                    </ul>
+                </div>
+            </div><!--end title-box-->
+        </div><!--end large-12 columns-->
+	</div><!--end row-->
+      
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    
+  <div id="footer">
+    	<div id="accredited"><img src="img/JCAHO.jpg" alt="JCAHO icon"/> JCAHO Accredited</div>
+        <div id="certified"><img src="img/Medicare.jpg" alt="Medicare icon"/> Medicare Certified</div>
+        <div id="bottom-text">A.C.E. Home Health Care Sercices Inc. & Auntie A.C.E. Staffing Inc. <br />
+        239 S. Ensley/P.O. Box 499 | Howard City, MI 49329 <br />
+        <a href="tel:+18889374514" style=" color:#D59697">888-937-4514</a> <br />
+        <a href="tel:+12319374514" style=" color:#D59697">231-937-4514</a> <br />
+        Copyright | 2015</div>
+  </div><!--end footer-->
+    
+</body>
+</html>
