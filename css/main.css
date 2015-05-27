@@ -145,15 +145,21 @@ li {
 	width: auto;
 	margin-left: -59px;
 }
-#rest-logo {
+#auntie-logo-text {
 	float: left;
-	margin-top: 100px;
+	margin-top: 78px;
 	margin-right: 93px;
-	margin-left: 15px;
+	margin-left: 89px;
+	width: 34%;
+	font-family: 'Sumana', serif;
+	color: #A33142;
+	font-size: x-large;
+	text-align: center;
 }
 #auntie-logo {
 	float: left;
-	margin-top: -10px;
+	margin-top: -230px;
+	margin-left: 505px;
 }
 #footer {
 	margin-top: 25px;
@@ -181,6 +187,14 @@ li {
 	font-family: 'Sumana', serif;
 	color: #A33142;
 	}
+.mi-map {
+	width: 50%;
+	float: left;
+	clear: left;
+}
+.county {
+	width: 50%;
+}
 // Small screens
 @media only screen { } /* Define mobile styles */
 
@@ -197,9 +211,9 @@ li {
 	}
 #logo-wrapper {
 	width: 50%;
-	float: none;
-	clear: none;
 	text-align: center;
+	clear: none;
+	float: none;
 }
 .info-text {
 	margin-top: -23px;
@@ -271,13 +285,24 @@ li {
 	width: 120px;
 	margin-top: 10px;
 }
-#rest-logo {
-	width: 50%;
-}
+
 #auntie-logo {
-	margin-left: 154px;
+	margin-left: 140px;
 	width: 50%;
-	margin-top: -40px;
+	margin-top: 4px;
+	float: left;
+	clear: both;
+}
+#auntie-logo-text {
+	float: none;
+	margin-top: 0px;
+	margin-right: 93px;
+	margin-left: 16px;
+	width: 100%;
+	font-family: 'Sumana', serif;
+	color: #A33142;
+	font-size: medium;
+	text-align: center;
 }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
@@ -353,12 +378,23 @@ li {
 	width: 125px;
 	margin-top: 0px;
 }
-#rest-logo {
-	width: 40%;
+#auntie-logo-text {
+	float: left;
+	margin-top: 0px;
+	margin-right: 93px;
+	margin-left: 89px;
+	width: 34%;
+	font-family: 'Sumana', serif;
+	color: #A33142;
+	font-size: x-large;
+	text-align: center;
 }
 #auntie-logo {
 	width: 40%;
+	margin-left: 432px;
+	margin-top: -156px;
 }
+
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 // Large screens
