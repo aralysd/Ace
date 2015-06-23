@@ -184,6 +184,61 @@ p.contact {
 	text-align: center;
 	margin-left: 0px;
 }
+.title-box {
+	width: 100%;
+	font-family: 'Sumana', serif;
+	font-size: 30px;
+	float: left;
+	margin-right: 20px;
+}
+#tbox {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#tbox2 {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#tbox3 {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#box-text {
+	margin-top: 110px;
+	border: thin solid #CB7E7A;
+	border-radius: 25px;
+	height: 854px;
+}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 // Medium screens
@@ -231,5 +286,60 @@ p.contact {
 	width: 100%;
 	text-align: center;
 	margin-left: 0px;
+}
+.title-box {
+	width: 100%;
+	font-family: 'Sumana', serif;
+	font-size: 30px;
+	float: left;
+	margin-right: 20px;
+}
+#tbox {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(194,105,100,1.00) 14.51%,rgba(194,105,100,0.65) 51.29%,rgba(194,105,100,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#tbox2 {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(159,66,62,1.00) 14.51%,rgba(159,66,62,0.71) 51.29%,rgba(159,66,62,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#tbox3 {
+	width: 100%;
+	text-align: center;
+	color: #FFFAF5;
+	height: 100px;
+	background-image: -webkit-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: -o-linear-gradient(270deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	background-image: linear-gradient(180deg,rgba(103,26,29,1.00) 14.51%,rgba(103,26,29,0.73) 51.29%,rgba(103,26,29,1.00) 87.05%);
+	border-radius: 25px;
+	padding-top: 25px;
+	float: left;
+	margin-top: 0px;
+}
+#box-text {
+	margin-top: 110px;
+	border: thin solid #CB7E7A;
+	border-radius: 25px;
+	height: 854px;
 }
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */

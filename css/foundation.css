@@ -950,6 +950,7 @@ select {
 
   .large-12 {
 	width: 100%;
+	margin-top: 1px;
 }
 
   .large-offset-0 {
@@ -3643,7 +3644,7 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	text-decoration: none;
-	color: #FFFBF6;
+	color: #EDC2C4;
 }
   a:hover, a:focus {
 	color: #E8BEC0;
