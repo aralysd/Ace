@@ -8,7 +8,8 @@
 	width: 100%;
 	text-align: center;
 	margin-left: 0px;
-	}
+	margin-top: 20px;
+}
 #Ace {
 	display: none;
 	color: #CB7E7A;
@@ -18,12 +19,13 @@
 	text-align: center;
 	margin-left: 0px;
 }
-  .medium-8 {
+.medium-8 {
 	width: 66.66667%;
 	float: left;
 }
-  .medium-4 {
-	/* [disabled]width: 33.33333%; */
+.medium-4 {
+	/* [disabled]width: 33.33333%;
+*/
 	float: left;
 	text-align: left;
 	color: #FFFBF6;
@@ -38,22 +40,21 @@ p {
 }
 #footer {
 	margin-top: 200px;
-	}
-// Small screens
-@media only screen { } /* Define mobile styles */
+}
+// Small screens @media only screen {
+} /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
-  .medium-8 {
+@media only screen and (max-width: 40em) {
+.medium-8 {
 	width: 66.66667%;
 	float: left;
 }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ // Medium screens @media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
 
-// Medium screens
-@media only screen and (min-width: 40.063em) {} /* min-width 641px, medium screens */
-
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
-  .medium-8 {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.medium-8 {
 	width: 48.667%;
 	float: left;
 }

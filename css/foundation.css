@@ -69,7 +69,7 @@ body {
 
 a:hover {
 	cursor: pointer;
-	color: #E8BEC0;
+	color: #E0A9AB;
 }
 
 img {
@@ -3479,13 +3479,18 @@ ul.pagination {
         background: #FFFFFF; }
 
 .text-left {
-  text-align: left !important; }
+	text-align: left !important;
+	margin-left: 25px;
+}
 
 .text-right {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+	text-align: left !important;
+	margin-left: 25px;
+	margin-right: 25px;
+}
 
 .text-justify {
   text-align: justify !important; }
@@ -3644,22 +3649,23 @@ a {
 	font-style: normal;
 	font-weight: 400;
 	text-decoration: none;
-	color: #EDC2C4;
+	color: #E0A9AB;
 }
   a:hover, a:focus {
-	color: #E8BEC0;
+	color: #E0A9AB;
 }
   a img {
     border: none; }
 
 /* Default paragraph styles */
 p {
-  font-family: inherit;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility; }
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin-bottom: 1.25rem;
+	text-rendering: optimizeLegibility;
+}
   p.lead {
     font-size: 1.21875rem;
     line-height: 1.6; }
@@ -3720,8 +3726,7 @@ em,
 i {
 	font-style: italic;
 	line-height: inherit;
-	/* [disabled]color: #FFFFFE; */
-	font-size: small;
+	font-size: large;
 	font-weight: bold;
 }
 

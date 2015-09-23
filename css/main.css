@@ -1,13 +1,12 @@
 @charset "UTF-8";
-
 body {
-	background-image: -webkit-linear-gradient(270deg,rgba(255,250,245,1.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,250,245,1.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(255,250,245,1.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(255,250,245,1.00) 0%,rgba(255,255,255,1.00) 100%);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	}
+	background-image: -webkit-linear-gradient(270deg, rgba(255,250,245,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,250,245,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,250,245,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(255,250,245,1.00) 0%, rgba(255,255,255,1.00) 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 #logo-wrapper {
 	width: 30%;
 	margin-top: 15px;
@@ -16,7 +15,6 @@ body {
 	margin-right: auto;
 	float: left;
 }
-
 #top-text {
 	font-size: 1em;
 	font-family: 'Sumana', serif;
@@ -32,8 +30,7 @@ body {
 	background-color: #671A1D;
 	margin-left: auto;
 	margin-right: auto;
-	}
-
+}
 .navigation {
 	width: 100%;
 	margin-left: auto;
@@ -48,7 +45,7 @@ li {
 }
 #box1 {
 	width: 25%;
-	height: 323px;
+	height: 350px;
 	background-color: #CB7E7A;
 	float: left;
 	color: #FFFAF5;
@@ -56,7 +53,7 @@ li {
 }
 #box2 {
 	width: 25%;
-	height: 323px;
+	height: 350px;
 	background-color: #C26964;
 	float: left;
 	text-align: center;
@@ -65,14 +62,14 @@ li {
 #box3 {
 	float: left;
 	width: 25%;
-	height: 323px;
+	height: 350px;
 	background-color: #9F423E;
 	text-align: center;
 	color: #FFFAF5;
 }
 #box4 {
 	width: 25%;
-	height: 323px;
+	height: 350px;
 	background-color: #671A1D;
 	float: left;
 	text-align: center;
@@ -99,8 +96,7 @@ li {
 	text-align: left;
 	margin-left: 0px;
 	display: none;
-	}
-
+}
 #Ace {
 	color: #CB7E7A;
 	font-family: 'Sumana', serif;
@@ -118,7 +114,6 @@ li {
 	text-align: center;
 	margin-top: -119px;
 }
-
 #round-icon1 {
 	float: left;
 	margin-right: 100px;
@@ -163,30 +158,27 @@ li {
 }
 #footer {
 	margin-top: 25px;
-	}
-
+}
 #accredited {
 	width: 50%;
 	float: left;
 	text-align: right;
 	font-family: 'Sumana', serif;
 	color: #A33142;
-	}
-
+}
 #certified {
 	width: 50%;
 	float: right;
 	margin-right: -15px;
 	font-family: 'Sumana', serif;
 	color: #A33142;
-	}
-
+}
 #bottom-text {
 	clear: both;
 	text-align: center;
 	font-family: 'Sumana', serif;
 	color: #A33142;
-	}
+}
 .mi-map {
 	width: 50%;
 	float: left;
@@ -208,7 +200,7 @@ li {
 	width: 100%;
 	text-align: center;
 	margin-left: 0px;
-	}
+}
 #center-text-employ {
 	width: 100%;
 	color: #9F423E;
@@ -225,20 +217,23 @@ li {
 	margin-top: 35px;
 	text-align: center;
 }
-// Small screens
-@media only screen { } /* Define mobile styles */
+// Small screens @media only screen {
+} /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { 
+@media only screen and (max-width: 40em) {
+.text-center {
+	font-size: medium;
+}
 #top-text {
 	font-size: 0.75em;
 	width: 100%;
 	float: none;
 	clear: none;
 	text-align: center;
-	}
+}
 #bottom-text {
 	font-size: small;
-	}
+}
 #logo-wrapper {
 	width: 50%;
 	text-align: center;
@@ -254,7 +249,6 @@ a {
 li {
 	font-size: 12px;
 }
-
 #box1 {
 	width: 100%;
 	float: left;
@@ -314,8 +308,8 @@ li {
 #small-map {
 	width: 120px;
 	margin-top: 10px;
+	margin-left: 32px;
 }
-
 #auntie-logo {
 	margin-left: 140px;
 	width: 50%;
@@ -339,18 +333,17 @@ li {
 	width: 100%;
 }
 .mi-map {
-	/* [disabled]margin-left: 62px; */
+	/* [disabled]margin-left: 62px;
+*/
 	width: 100%;
 }
 #contact-info {
 }
-
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ // Medium screens @media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
 
-// Medium screens
-@media only screen and (min-width: 40.063em) {} /* min-width 641px, medium screens */
-
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 #top-text {
 	font-size: 1em;
 	margin-left: auto;
@@ -359,7 +352,7 @@ li {
 	clear: none;
 	width: 100%;
 	text-align: center;
-		}
+}
 #logo-wrapper {
 	width: 50%;
 	float: none;
@@ -368,11 +361,11 @@ li {
 }
 a {
 	font-size: 14px;
-	}
+}
 li {
 	font-size: 12px;
 }
-.info-text{
+.info-text {
 	margin-top: -15px;
 }
 #box1 {
@@ -401,11 +394,11 @@ li {
 }
 #center-text {
 }
-
 #round-icon1 {
 	width: 100px;
 	float: left;
-	/* [disabled]margin-left: 100px; */
+	/* [disabled]margin-left: 100px;
+*/
 }
 #round-icon2 {
 	width: 100px;
@@ -439,18 +432,16 @@ li {
 #contact-info {
 	float: none;
 }
-
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ // Large screens @media only screen and (min-width: 64.063em) {
+} /* min-width 1025px, large screens */
 
-// Large screens
-@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+ // XLarge screens @media only screen and (min-width: 90.063em) {
+} /* min-width 1441px, xlarge screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-
-// XLarge screens
-@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
-
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-
-// XXLarge screens
-@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ // XXLarge screens @media only screen and (min-width: 120.063em) {
+} /* min-width 1921px, xxlarge screens */
